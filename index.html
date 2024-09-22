@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Jevana's Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        nav {
+            background-color: #b06cc2; /* Darker purple for the nav bar */
+            padding: 10px;
+        }
+        nav ul {
+            list-style-type: none; /* Remove bullet points */
+            padding: 0;
+            margin: 0;
+            display: flex; /* Display list items in a row */
+            justify-content: center; /* Center-align the items horizontally */
+        }
+        nav ul li {
+            margin: 0 15px; /* Space between menu items */
+        }
+        nav ul li a {
+            color: #fff; /* White text color */
+            text-decoration: none; /* Remove underline from links */
+            font-weight: bold; /* Make text bold */
+        }
+        nav ul li a:hover {
+            text-decoration: underline; /* Add underline on hover */
+        }
+        body {
+            background-color: #f5e6f7; /* Lighter purple for the rest of the page */
+            color: #333; /* Dark text color for readability */
+            font-family: Arial, sans-serif; /* Font styling */
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            background-color: #ae40bf; /* Darker purple for the heading */
+            color: #fff; /* White text color for contrast */
+            padding: 30px;
+            margin: 0;
+            text-align: center;
+            font-family: 'Rush Script MT'; 
+        }
+        h2 {
+            text-align: center;
+        }
+        p {
+            padding: 10px;
+        }
+
+        /* Palladian Window Shape for Image (bigger size) */
+        .palladian-window {
+            position: relative;
+            width: 450px; /* Increased width */
+            height: 600px; /* Increased height */
+            margin: 20px auto;
+            background-color: #e0e0e0; /* Light grey background for the window frame */
+            border-radius: 50% 50% 0 0; /* Arch top */
+            overflow: hidden;
+        }
+        .palladian-window img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Ensures the image fits the shape */
+        }
+
+        /* Side columns for Palladian Window */
+        .palladian-window::before, .palladian-window::after {
+            content: '';
+            position: absolute;
+            width: 60px; /* Slightly wider columns */
+            height: 600px; /* Matches the new height of the window */
+            background-color: #e0e0e0;
+            top: 0;
+        }
+        .palladian-window::before {
+            left: -60px; /* Position left column */
+        }
+        .palladian-window::after {
+            right: -60px; /* Position right column */
+        }
+
+        .contact-info {
+            background-color: #b06cc2;
+            color: #fff;
+            padding: 20px;
+            text-align: left;
+        }
+        footer {
+            background-color: #4b0082;
+            color: #fff;
+            padding: 1px; /* Adjusted padding for consistency */
+            text-align: left;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>JEVANA GRANT</h1>
+    
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Index</a></li>
+            <li><a href="background.html">Background</a></li>
+            <li><a href="professional.html">Professional</a></li>
+            <li><a href="personality.html">Personality</a></li>
+            <li><a href="development.html">Personal Development</a></li>
+            <li><a href="storyboard.html">Storyboard</a></li>
+            <li><a href="referencepage.html">Reference</a></li>
+        </ul>
+    </nav>
+    
+    <h2>HELLO! ¡HOLA! BONJOUR!</h2>
+    <h2>Welcome to my portfolio! Here, you'll discover everything you need to know about me and my journey.</h2>
+    
+    <p>My name is Jevana Grant. I am a second-year student currently studying Computer Science at the <a href="https://www.utech.edu.jm/" target="_blank">University of Technology Jamaica (UTECH)</a>.</p>
+    <p>Explore my background, professional journey, personality, and personal growth throughout this portfolio.</p>
+    
+    <!-- Picture with Palladian Window -->
+    <div class="palladian-window">
+        <a href="mailto:jevanagrant@gmail.com?subject=ID#2302670">
+            <img src="../Assets/Myphoto.jpg" alt="My Photo">
+        </a>
+    </div>
+    
+    <p style="text-align: center;">Connect with me via email by clicking on my photo above &#128070</p>
+    
+    <div class="contact-info">
+        <p>Additional contact info:</p>
+        <p>Phone &#128241: (876) 527-8204</p>
+        <p>Instagram <i class="fab fa-instagram"></i> : jev.anaa</p>
+    </div>
+    
+    <footer>
+        <p>&copy; 2024 Jevana's Portfolio. All rights reserved</p>
+    </footer>
+</body>
+</html>

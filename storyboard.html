@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Storyboard: Jevana's Portfolio</title>
+    <style>
+        /* Navigation styles */
+        nav {
+            background-color: #b06cc2;
+            padding: 10px;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        /* General Body and heading styling */
+        body {
+            background-color: #f5e6f7;
+            color: #333;
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            background-color: #ae40bf;
+            color: #fff;
+            padding: 30px;
+            margin: 0;
+            text-align: center;
+            font-family: 'Rush Script MT';
+        }
+
+        h2, h3 {
+            color: #ae40bf;
+            text-align: center;
+            margin-top: 20px;
+            font-size: 2em;
+        }
+
+        /* Creative content container */
+        .content-container {
+            margin: 20px auto;
+            width: 90%;
+            max-width: 1000px;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .content-container p {
+            font-size: 1.2em;
+            line-height: 1.8;
+            color: #333;
+            text-align: justify;
+        }
+
+        .section {
+            margin: 40px 0;
+        }
+
+        /* Add icons to sections for visual interest */
+        .icon {
+            font-size: 3em;
+            color: #ae40bf;
+            margin-bottom: 20px;
+        }
+
+        /* Add creative list styling */
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 20px 0;
+        }
+        ul li {
+            display: flex;
+            align-items: center;
+            margin: 10px 0;
+        }
+        ul li::before {
+            color: #ae40bf;
+            font-size: 1.5em;
+            margin-right: 10px;
+        }
+
+        /* Image styling */
+        .content-container img {
+            width: 80%;
+            height: auto;
+            margin: 20px auto;
+            display: block;
+            border-radius: 10px;
+        }
+
+        /* Button styling for PDF link */
+        .pdf-link {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .pdf-link a {
+            background-color: #b06cc2;
+            color: white;
+            padding: 12px 25px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            font-size: 1.2em;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s ease;
+        }
+        .pdf-link a:hover {
+            background-color: #ae40bf;
+        }
+
+        /* Footer styling */
+        footer {
+            background-color: #4b0082; /* Indigo color for the footer */
+            color: #fff;
+            padding: 30px; /* Padding adjusted to match the previous style */
+            text-align: left;
+        }
+        footer p {
+            margin: 0;
+            font-size: 1em;
+        }
+    </style>
+
+    <!-- Link to FontAwesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <h1>JEVANA GRANT</h1>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Index</a></li>
+            <li><a href="background.html">Background</a></li>
+            <li><a href="professional.html">Professional</a></li>
+            <li><a href="personality.html">Personality</a></li>
+            <li><a href="development.html">Personal Development</a></li>
+            <li><a href="storyboard.html">Storyboard</a></li>
+            <li><a href="referencepage.html">Reference</a></li>
+        </ul>
+    </nav>
+
+    <!-- Content Container -->
+    <div class="content-container">
+        <!-- Project Overview -->
+        <div class="section">
+            <i class="fas fa-project-diagram icon"></i>
+            <h2>Project Overview</h2>
+            <p>
+                This storyboard outlines the visual structure, layout, and user flow of my portfolio website, including how the navigation works, 
+                the design theme, and specific page functionalities.
+            </p>
+        </div>
+
+        <!-- Layout Design Section -->
+        <div class="section">
+            <i class="fas fa-drafting-compass icon"></i>
+            <h2>Layout Design (Wireframe)</h2>
+            <p>The wireframe includes a structured layout with navigation, header, content areas, and footer for a smooth user experience.</p>
+            <img src="../Assets/home page.png" alt="Home Page Wireframe">
+            <img src="../Assets/backgroundpage.png" alt="Background Page Wireframe">
+            <img src="../Assets/professionalpage.png" alt="Professional Page Wireframe">
+            <img src="../Assets/personalitypage.png" alt="Personality Page Wireframe">
+            <img src="../Assets/personaldevelopmentpage.png" alt="Personality Development Page Wireframe">
+            <img src="../Assets/storyboardpage.png" alt="Storyboard Page Wireframe">
+            <img src="../Assets/referencepage.png" alt="Reference Page Wireframe">
+        </div>
+
+        <!-- Web Pages and Purpose Section -->
+        <div class="section">
+            <i class="fas fa-file-alt icon"></i>
+            <h2>Web Pages and Their Purpose</h2>
+            <ul>
+                <li><strong>Home Page:</strong> Introduces the portfolio and provides an overview of my background.</li>
+                <li><strong>Background Page:</strong> Contains information about likes, dislikes, hobbies, educational journey, and personal background.</li>
+                <li><strong>Professional Page:</strong> Highlights career goals, the vision, mission, skills, qualifications, and job requirements to become a Software Developer.</li>
+                <li><strong>Personality Page:</strong> Provides insights into my strongest personality trait and hobby and how they impact my academic and personal life.</li>
+                <li><strong>Personal Development Page:</strong> Provides a brief summary of Chapters 4-7 of "Twelve Pillars" and a reflection of how I can apply the lessons learnt 
+                to my life. Includes the skills that I have developed so far and the degree I am currently pursuing.</li>
+            </ul>
+        </div>
+
+        <!-- Site Theme Section -->
+        <div class="section">
+            <i class="fas fa-palette icon"></i>
+            <h2>Site Theme</h2>
+            <p>The theme of the site is vibrant and professional, targeting young professionals and students as well as organizations with job vacancies in the Computer Science field. 
+            It features a color palette of various shades of purple, conveying creativity and professionalism. The design includes personal images and 
+            graphics to enhance engagement, along with subtle icons for navigation. This approach aims to create an inviting atmosphere that reflects my 
+            personality and academic aspirations, making the portfolio memorable and user-friendly.</p>
+        </div>
+
+        <!-- Features Section -->
+        <div class="section">
+            <i class="fas fa-laptop-code icon"></i>
+            <h2 style="color: #ae40bf;">Features</h2>
+            <p>The following features are intended to be included on the website:</p>
+            <ul>
+                <li><strong>Responsive Navigation Bar:</strong> The navigation bar will be styled with CSS for a clean, horizontally aligned layout, ensuring user-friendly navigation across the site.</li>
+                <li><strong>Clickable Profile Picture:</strong> The profile picture will link directly to an email prompt, allowing users to contact me quickly by clicking on the image.</li>
+                <li><strong>Visually Structured Section Containers:</strong> Each section will be presented in its own container with an image, title, and description, enhancing organization and visual appeal.</li>
+                <li><strong>Responsive Image and Card Layout:</strong> Card-based layouts will ensure that content is well-organized and adapts to various screen sizes while maintaining aesthetic balance.</li>
+                <li><strong>Images:</strong> Images will be included to enhance visual appeal, communicate ideas quickly, and engage users more effectively, breaking up large blocks of text.</li>
+            </ul>
+        </div>
+
+        <div class="pdf-link">
+            <a href="../Codes/storyboard.pdf" download>Download Storyboard PDF</a>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Jevana's Portfolio. All rights reserved</p>
+    </footer>
+</body>
+</html>
+
